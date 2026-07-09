@@ -80,8 +80,8 @@ Topic-wise DSA practice log — 16+ topics from arrays to recursion, built as st
 Open to frontend and full-stack internships, and full-time roles after graduation. Reach out — I usually reply within a day.
 
 - ✉️ nirmalshital3@gmail.com
-- 🔗 [LinkedIn](#linkedin.com/in/shital-nirmal-09aa6128a)
-- 💻 [Github](#github.com/Shital-3 |)
+- 🔗 [LinkedIn](https://linkedin.com/in/shital-nirmal-09aa6128a)
+- 💻 [GitHub](https://github.com/Shital-3)
 
 ---
 
