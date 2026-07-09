@@ -1,0 +1,29 @@
+.contact-sub {
+  color: var(--text-muted);
+  max-width: 52ch;
+  margin: 10px 0 32px;
+  font-size: 16px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 4px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  color: var(--text-primary);
+  transition: color 0.15s ease, padding-left 0.15s ease;
+}
+
+.contact-link:hover {
+  color: var(--amber);
+  padding-left: 10px;
+}

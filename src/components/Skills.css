@@ -1,0 +1,60 @@
+.skills-manifest {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 28px 32px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+}
+
+.manifest-line {
+  color: var(--text-dim);
+}
+
+.manifest-group {
+  padding: 10px 0 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 0;
+  border-bottom: 1px dashed var(--border);
+}
+
+.manifest-group:last-of-type {
+  border-bottom: none;
+}
+
+.manifest-key {
+  color: var(--amber);
+}
+
+.manifest-colon {
+  color: var(--text-dim);
+  margin-right: 8px;
+}
+
+.manifest-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.manifest-item {
+  color: var(--teal);
+}
+
+.manifest-item::after {
+  content: ',';
+  color: var(--text-dim);
+}
+
+.manifest-item:last-child::after {
+  content: '';
+}
+
+@media (max-width: 640px) {
+  .skills-manifest {
+    padding: 22px 18px;
+    font-size: 13px;
+  }
+}
